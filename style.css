@@ -1,11 +1,13 @@
-body {
+html {
     /*
     * Created with https://www.css-gradient.com
     * Gradient link: https://www.css-gradient.com/?c1=7a2368&c2=136d72&gt=l&gd=dtl
     */
     background: #7A2368;
-    background: linear-gradient(135deg, #7A2368, #136D72);}
-
+    background: linear-gradient(135deg, #7A2368, #136D72) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 h1 {
     margin-left: 2%;
@@ -14,6 +16,12 @@ h1 {
 
 h2 {
     color: white;
+}
+
+h2.letter {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 p {
@@ -27,8 +35,20 @@ p.info {
     margin-right: 5%;
 }
 
+p.letter {
+    color: white;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 a {
     color: darkcyan;
+}
+a.letter {
+    color: darkcyan;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .center {
