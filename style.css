@@ -42,6 +42,14 @@ p.letter {
     margin-right: 5%;
 }
 
+ul.info {
+    color: white;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 150%;
+}
+
 a {
     color: darkcyan;
 }
