@@ -76,7 +76,7 @@ a.letter {
 }
 
 .navigation {
-    font-size:2vw;
+    font-size:1.5vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +87,7 @@ a.letter {
 }
 
 .nav-option {
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 2%;
     border-style: solid;
     border-radius: 1vh;
